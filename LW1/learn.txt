@@ -1,0 +1,19 @@
+1.	Komponen drone:
+A.	Propeller
+B.	Transmitter and receiver (Menangkap sinyal dari transmitter)
+C.	Flight controller
+D.	ESC (Electronic Speed Control)
+
+2.	Tools untuk programming:
+A.	GIT = Tools sebagai alat, merupakan system control versi (VCS) open source
+B.	GitHub = server atau platform berbasis web
+C.	Google Colab = layanan berbasis cloud yang memungkinkan pengguna untuk menulis, menjalankan, dan berbagi kode python di browser. Menguntungkan karena tidak perlu melakukan konfigurasi
+D.	ROS2 = kerangka kerja perangkat lunak robot yang bersifat open-sorce. ROS2 dirancang untuk menyederhanakan pengembangan perangkat lunak robot
+E.	OpenCV = merupakan open-source library untuk computer vision, machine learning, dan image processing. Dibuat untuk menyediakan infrastruktur computer vision dan memiliki berbagai algoritma untuk pemrosesan gambar
+
+3.	Why riset programming quadcopter?
+A.	Stabilitas dan kendali penerbangan
+B.	Navigasi dan autopilot
+C.	Pemrosesan data sensor
+D.	Implementasi ai dan computer vision 
+E.	Komunikasi dan interaksi dengan system lain

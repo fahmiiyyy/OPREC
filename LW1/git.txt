@@ -1,0 +1,15 @@
+how to connect git to GitHub
+
+Repo:
+git init
+git status
+git config user.name " "
+git config user.email " "
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/fahmiiyyy/OPREC.git
+git push -u origin main
+
+
+git branch (name)
+git checkout (name)
