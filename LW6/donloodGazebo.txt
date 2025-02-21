@@ -1,0 +1,19 @@
+gazebo download:
+sudo apt update
+curl -sSL http://get.gazebosim.org | sh
+gedit .bashrc
+di paling bawah taruh source /usr/share/gazebo/setup.sh
+ketik 'gazebo' buat ngetest
+
+make urdf
+cd sampe ke src 
+ros2 pkg create robot_desc
+cd robot_desc
+mkdir urdf
+
+struktur robot_desc
+launch -->
+rviz -->
+urdf --> sacro
+
+
