@@ -1,0 +1,32 @@
+1. Membuat build install log src
+- mkdir src
+- colcon build
+2. Ngesource si install
+- gedit ~/.bashrc
+- source ~/dir(pertama)/dir(kedua)/install/setup.bash
+3. Bikin package di src
+- ros2 pkg create (namanya) --build-type ament_python --dependencies rclpy
+4. buka vscode
+- cd ke src nya
+- code .
+5. membuat file.py
+- cd ke src
+- cd ke my_py_pkg 2x
+- touch filename.py
+- chmod +x filename.py
+6. menghapus dir
+- rm -rf filename
+7. setup.py
+- di bagian 'console scripts': [
+"nama file (gausah  .py) = (nama pkg).(nama file(gausah  .py):main",
+"nama file (gausah  .py) = (nama pkg).(nama file(gausah  .py):main",
+]
+8. balik ke dir sebelumnya
+- cd ..
+9. run file
+- colcon build pkg (pake "colcon build --symlink-install" supaya ga colcon build trs trs an)
+- source install/setup.bash
+- ros2 run (pkg name) (filename(gausah .py))
+- rqt_graph(untuk cek node)
+10. ganti nama dir & file
+mv oldname newname & mw oldname.py newname.py
