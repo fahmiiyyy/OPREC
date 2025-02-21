@@ -1,1 +1,1 @@
-Mengenal Ardupilot, Mavlink, Mavros, DDs, pixhawk, dll
+Mengenal Ardupilot, Mavlink, Mavros, DDs, pixhawk, dronekit.
