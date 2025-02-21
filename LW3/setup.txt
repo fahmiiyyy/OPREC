@@ -1,0 +1,19 @@
+Instalasi pyhton/c++:
+sudo apt install g++
+python3 –version (cek aja)
+sudo apt install python3
+Intsall VsCode:
+download dulu .deb
+sudo dpkg -i nama
+install extension janlup (C/C++, Python, Cmake, 
+Install Terminator:
+sudo apt install terminator
+Instalasi ROS2:
+https://docs.ros.org/en/humble/Installation.html
+gedit ~/.bashrc
+source /opt/ros/humble/setup.bash
+Tes ROS2:
+ros2 run demo_nodes_cpp talker
+Install colcon:
+sudo apt install python3-colcon-common-extensions
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
